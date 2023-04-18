@@ -112,10 +112,10 @@ export default function Footer() {
           </a>
         </div>
         <div>
-          <a href='https://facebook.com' style={{marginRight: '10px'}}>
+          <a href='https://www.facebook.com/prefeituradefranca' style={{marginRight: '10px'}}>
               <FontAwesomeIcon icon={faFacebook} />
           </a>
-          <a href='https://facebook.com' style={{marginRight: '10px'}}>
+          <a href='https://www.instagram.com/prefeituradefranca' style={{marginRight: '10px'}}>
               <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
