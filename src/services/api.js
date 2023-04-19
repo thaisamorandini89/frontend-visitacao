@@ -2,7 +2,7 @@ import axios from "axios";
 
 const BASE_URL = 'http://172.21.200.90:3000';
 
-const makeRequest = ({method = 'GET', url, data, params}) => {
+export const makeRequest = ({method = 'GET', url, data, params}) => {
   return axios ({
       method,
       url: `${BASE_URL}${url}` ,

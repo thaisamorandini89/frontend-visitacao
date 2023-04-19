@@ -10,6 +10,13 @@ function App() {
   const [visitors, setVisitors] = useState([])
   
   useEffect(() => {
+
+    const data = '' 
+    const params = ''
+       
+    makeRequest({ url: '/visitors/1', data, params })
+    .then(response => console.log(response.data))
+
   }, []);
 
   const newVisitor = (visitor) => {
